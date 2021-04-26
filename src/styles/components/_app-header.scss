@@ -1,0 +1,12 @@
+
+.header-container {
+    margin: 73px 0 75px 0;
+
+    & * {
+        font-family: Railway;
+    }
+
+    & .nav-container *:not(:first-child) {
+        margin-inline-start: 58px;
+    }
+}

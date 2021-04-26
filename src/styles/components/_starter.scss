@@ -1,0 +1,25 @@
+
+.starter {
+    background-color: $clr2;
+    position: relative;
+    padding: 76px;
+
+    .img-5 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    h2 {
+        font-size: 48px;
+        color: $clr7;
+        font-weight: 700;
+        margin: 0;
+    }
+    button {
+        color: $clr7;
+        border: 2px solid $clr7;
+    }
+
+
+}

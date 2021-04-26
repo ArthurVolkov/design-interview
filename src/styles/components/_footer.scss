@@ -1,0 +1,32 @@
+.app-footer-container {
+    background-color: $clr8;
+
+    .app-footer {
+        padding: 48px 0;
+        .logo-footer-container {
+            width: 160px;
+            img {
+                margin-bottom: 25px;
+                width: 160px;
+                height: 40px;
+            }
+        }
+        pre {
+            font-size: 15px;
+            margin: 10px 0 0 50px;
+        }
+
+        .icon-container {
+            justify-content: flex-end;
+            * {
+                margin-inline-start: 16px;
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .copyright-container {
+            height: 80px;
+        }
+    }
+}

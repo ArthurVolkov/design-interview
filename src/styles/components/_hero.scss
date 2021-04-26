@@ -1,0 +1,35 @@
+.hero {
+    position: relative;
+    margin-bottom: 158px;
+
+    @include for-mobile-layout {
+        flex-direction: column;
+    }
+    .hero-logo {
+        padding: 10px 0;
+    }
+    .hero-logo * {
+        font-size: 100px;
+        span {
+            color: $clr2;
+        }
+    }
+    .hero-txt {
+        width: 445px;
+        height: 200px;
+    }
+    .hero- {
+        width: 50px;
+        height: 4px;
+        background-color: $clr4;
+    }
+    .img-1 {
+        position: absolute;
+        left: -350px;
+    }
+    .img-2 {
+        position: absolute;
+        top: 350px;
+        right: 0;
+    }
+}

@@ -1,0 +1,54 @@
+.box {
+    background-color: $clr7;
+    margin-top: 20px;
+    padding: 140px 0;
+    position: relative;
+    overflow: hidden;
+    .box- {
+        width: 50px;
+        height: 4px;
+        background-color: $clr2;
+    }
+    .box-logo {
+        width: 445px;
+        h2 {
+            font-size: 48px;
+            margin-bottom: 0;
+        }
+    }
+    .img-container {
+        width: 72px;
+        height: 72px;
+        margin-inline-end: 23px;
+    }
+    .box-item {
+        max-width: 540px;
+        p {
+            max-width: 400px;
+            font-size: 15px;
+        }
+        h4 {
+            font-size: 18px;
+            color: $clr2;
+            margin-bottom: 16px;
+        }
+    }
+    .box-item:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    .img-3 {
+        position: absolute;
+        right: -100px;
+        bottom: 0;
+        overflow: hidden;
+        * {
+            overflow: hidden;
+        }
+    }
+
+    :first-child {
+        @include for-mobile-layout {
+            flex-direction: column;
+        }
+    }
+}

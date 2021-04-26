@@ -1,0 +1,16 @@
+
+
+.comments-list {
+    .comment {
+        width: 360px;
+        height: 200px;
+        background-color: $clr4;
+        padding: 40px 25px 25px 25px;
+
+        img {
+            width: 24px;
+            height: 24px;
+            border-radius: 24px
+        }
+    }
+}

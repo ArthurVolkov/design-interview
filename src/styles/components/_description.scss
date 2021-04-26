@@ -1,0 +1,67 @@
+.description {
+    padding: 140px 0;
+
+    h2 {
+        font-size: 48px;
+        margin: 0;
+        &:last-child {
+            margin-bottom: 92px;
+        }
+        & span {
+            color: $clr4;
+        }
+    }
+
+    .description-list {
+        width: 100%;
+        @include for-mobile-layout {
+            flex-direction: column;
+        }
+    }
+    .description-item {
+        max-width: 353px;
+        position: relative;
+        .img-container {
+            position: absolute;
+            top: -35px;
+            z-index: -10;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        h4 {
+            color: $clr4;
+        }
+        h5 {
+            font-style: italic;
+            margin-bottom: 32px;
+        }
+        .avatar-container {
+            width: 62px;
+            height: 62px;
+            border-radius: 100px;
+            img {
+                border-radius: 100px;
+            }
+        }
+    }
+}
+
+.description-container {
+    position: relative;
+    .img-4 {
+        width: 147px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .img-5 {
+        width: 147px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
